@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    line-height: 1.4;
+    background: linear-gradient(#4d4d4d,#2f2f2f);
+    border-radius: 5px;
+    border: 1px solid black;
+color: #fff;
+padding: 6px;
+transition: padding-right .3s ease-out;
+}
+
+li {
+    vertical-align: middle;
+    list-style-type: none;
+    background: rgba(196, 196, 196, 0.05);
+    border: 1px solid #C4C4C4;
+    border-radius: 20px;
+    width: auto;
+    align-items: center;
+}
+
+
+#spinner-timesheet-button, #spinner-salesbook-button {
+    display: none;
+}
